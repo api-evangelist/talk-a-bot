@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://talkabot.net/trust
+url: https://talkabot.net/trust
+certifications:
+- PCI DSS
+- HIPAA
+- GDPR
+evidence:
+- source: https://talkabot.net/trust
+  keywords:
+  - pci dss
+  - hipaa
+  - trust center
+  - gdpr

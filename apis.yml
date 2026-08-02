@@ -1,7 +1,28 @@
 aid: talk-a-bot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talk-a-bot.png
 name: Talk-A-Bot
-description: Talk-A-Bot is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Talk-A-Bot is a Budapest-based, Techstars-backed enterprise chatbot company building
+  compliance-first conversational AI for regulated industries including banking, healthcare,
+  government, retail, and HR. Its platform emphasizes "zero hallucination" answers grounded
+  only in verified knowledge bases, full conversation logging and audit trails, EU-based
+  infrastructure with on-premise deployment options, and daily human review. Products include
+  an FAQ Chatbot, an Agentic Chatbot, FeedbackHub, and the CHEQ internal-communications
+  assistant, deployed across web, mobile, Messenger, and Viber. The company markets an
+  API-first architecture for integrating with customer systems (CRM, ERP, payments, ticketing,
+  HR) but publishes no public self-serve developer API, OpenAPI, or SDK; engagement is
+  full-service. Compliance posture spans HIPAA, DORA, the EU AI Act, GDPR, and PCI DSS.
 url: https://raw.githubusercontent.com/api-evangelist/talk-a-bot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Chatbots
+- Conversational AI
+- Enterprise Software
+- Compliance
+- Customer Support
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://talkabot.net/
+- type: TrustCenter
+  url: https://talkabot.net/trust
+- type: Compliance
+  url: https://talkabot.net/trust
+- type: PrivacyPolicy
+  url: https://talkabot.net/privacy
+- type: TermsOfService
+  url: https://talkabot.net/terms
+- type: Support
+  url: https://talkabot.net/contact
+- type: DomainSecurity
+  url: security/talk-a-bot-domain-security.yml
+- type: TrustCenter
+  url: security/talk-a-bot-trust-center.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
