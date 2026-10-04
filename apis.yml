@@ -50,7 +50,7 @@ tags:
 - Conversational AI
 - Enterprise Software
 - Compliance
-- Customer-Support
+- Customer Support
 - Artificial Intelligence
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Compliance
 - Customer Support
 - Artificial Intelligence
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
